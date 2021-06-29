@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.App , #root {
+    height: 100%;
+}
+
+.App {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main {
+    height: 100%;
+    padding: 5em 10em;
+    background-image: url('../../assets/bg-pattern-desktop.svg');
+    background-size: cover;
+}
+.container {
+    margin-top: 6em;
+    min-width: 600px;
+}

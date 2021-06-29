@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+$mainFont : 'Josefin Sans',Arial, Helvetica, sans-serif;
+
+
+.heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: $mainFont;
+    font-weight: 300;
+    strong {
+        font-weight: 600;
+        display: block;
+    }
+}
+
+.paragraph {
+    margin-top: 2em;
+    font-family: $mainFont;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
